@@ -22,11 +22,33 @@
             class="d-inline-flex justify-content-center align-items-center w-100 h-100"
           >
             <div class="content-box col-sm-10 col-md-8 col-lg-6 col-xl-4">
-              <textarea class="form-control" rows="8"></textarea>
+              <p class="lead">Enter Content to Convert!</p>
+              <textarea class="form-control" rows="8" id="input"></textarea>
+              <button class="btn btn-success w-100 mt-3" onclick="generate()">
+                Generate
+              </button>
+
+              <p class="lead mt-5">Converted Text!</p>
+              <textarea
+                readonly
+                disabled
+                class="form-control mt-3"
+                rows="8"
+                id="output"
+              ></textarea>
+              <button
+                class="btn btn-success w-100 my-3"
+                id="wps"
+                style="display: none"
+                onclick="share()"
+              >
+                Share on Whatsapp
+              </button>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
