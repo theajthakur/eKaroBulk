@@ -1,0 +1,17 @@
+.header {
+  background: linear-gradient(45deg, #ff0000, #7f00ff);
+  color: #ffffff;
+}
+
+.header span {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.header span.post {
+  font-size: 1.7rem;
+  font-weight: 100;
+  background: #ffffff24;
+  padding: 0 10px;
+  border-radius: 10px;
+}

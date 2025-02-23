@@ -1,0 +1,16 @@
+{
+  "homepage": "https://theajthakur.github.io/eKaroBulk",
+  "name": "ekarobulk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./"
+  },
+  "author": "Vijay SIngh",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
